@@ -180,8 +180,13 @@ html{
 }
 
 @media only screen and (max-width:620px){
-    .img-con .over-lay{
-        font-size: 15px;
+     .img-con .over-lay{
+        font-size: 30px;
     }
+    .img-con{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
 }
    
