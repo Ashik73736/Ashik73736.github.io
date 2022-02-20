@@ -179,5 +179,9 @@ html{
     opacity: 1;
 }
 
-
+@media only screen and (max-width:620px){
+    .img-con .over-lay{
+        font-size: 15px;
+    }
+}
    
